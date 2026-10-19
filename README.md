@@ -1,5 +1,7 @@
 # DataCapGuard
 
+**🌐 Website:** [turhe123.github.io/data-cap-guard](https://turhe123.github.io/data-cap-guard/)
+
 Track monthly internet usage against your data cap with a menu bar gauge and warnings before you run out.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -30,7 +32,17 @@ DataCapGuard is a free, open-source, 100% native, backend-free alternative to pa
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-dashboard.png" alt="DataCapGuard popover with 53% usage gauge and 30-day usage bar chart" width="720"></p>
+
+<p align="center"><em>The menu bar popover shows a usage gauge, used/left/projected totals with the projection turning red when it would exceed the cap, and a 30-day chart highlighting the current billing period.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="DataCapGuard Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you set your monthly allowance, reset day, manual adjustment, counted interfaces, hotspot mode and warning thresholds.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-setup-wizard.png" alt="DataCapGuard first-run setup wizard in the menu bar popover" width="560"></p>
+
+<p align="center"><em>On first launch a short setup wizard asks only for your monthly allowance and billing reset day.</em></p>
 
 ## Install
 

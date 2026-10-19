@@ -1,0 +1,5 @@
+[
+  {"file":"01-dashboard.png","caption":"The menu bar popover shows a usage gauge, used/left/projected totals with the projection turning red when it would exceed the cap, and a 30-day chart highlighting the current billing period.","alt":"DataCapGuard popover with 53% usage gauge and 30-day usage bar chart"},
+  {"file":"02-settings.png","caption":"Settings let you set your monthly allowance, reset day, manual adjustment, counted interfaces, hotspot mode and warning thresholds.","alt":"DataCapGuard Settings window"},
+  {"file":"03-setup-wizard.png","caption":"On first launch a short setup wizard asks only for your monthly allowance and billing reset day.","alt":"DataCapGuard first-run setup wizard in the menu bar popover"}
+]

@@ -1,0 +1,60 @@
+{
+  "seo_title": "Data cap tracker for macOS",
+  "seo_description": "Free, open-source macOS menu bar app that tracks monthly internet usage against your data cap and warns you before you hit it. Native and private.",
+  "hero_title_line1": "Know your data cap",
+  "hero_title_accent": "before it knows you",
+  "hero_sub": "Set your monthly allowance and DataCapGuard keeps a live gauge in your menu bar, projects your month-end total, and warns you before you reach the cap.",
+  "features_title": "Built to watch one number.",
+  "features_sub": "DataCapGuard does one job, tracking usage against your monthly cap, and keeps everything on your Mac.",
+  "features": [
+    {
+      "icon": "eye",
+      "title": "Menu bar gauge",
+      "desc": "Show a ring, a percentage, or both. The color shifts toward amber and red as your usage grows."
+    },
+    {
+      "icon": "display",
+      "title": "Projection and 30-day chart",
+      "desc": "See used, left, projected and daily average, plus a Swift Charts bar chart of the last 30 days. The projection turns red if it would exceed your cap."
+    },
+    {
+      "icon": "bell",
+      "title": "Warnings at your thresholds",
+      "desc": "Get notified at 75, 90 and 100 percent by default, or pick your own. Each warning fires once per billing period."
+    },
+    {
+      "icon": "sliders",
+      "title": "Choose what gets counted",
+      "desc": "Count all physical interfaces, Wi-Fi only, or Ethernet only. VPN and virtual interfaces are excluded by default to avoid double counting."
+    },
+    {
+      "icon": "bolt",
+      "title": "Hotspot mode",
+      "desc": "Enter a network name such as your iPhone and only traffic on that network counts, so home usage never mixes in."
+    },
+    {
+      "icon": "clock",
+      "title": "Reliable counting",
+      "desc": "Samples every 5 seconds and right after wake, treats counter resets as a new baseline, and keeps daily totals across reboots. A manual adjustment lets you match your provider's meter."
+    }
+  ],
+  "permissions_step": "When prompted, allow Notifications so DataCapGuard can warn you; Location access is optional and only needed for Hotspot mode to read your Wi-Fi name (System Settings > Privacy & Security > Location Services).",
+  "faq": [
+    {
+      "q": "Is DataCapGuard really free and open source?",
+      "a": "Yes. It is released under the MIT license, with no accounts, subscriptions or in-app purchases. The source is on GitHub, and there is an optional Support button if you want to chip in."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Notifications, so it can warn you at your thresholds; if you decline, it still tracks usage and shows a banner. Location is optional and only affects Hotspot mode, because macOS may hide the Wi-Fi name without it. It never asks for Accessibility, Screen Recording or Microphone access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Only on your Mac. Daily usage totals are saved as a JSON file in Application Support, and the app reads per-interface byte counters, never the contents of your traffic. Nothing is sent to any server."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, which this free project does not have. Right-click the app and choose Open once to launch it, or build it from source with Xcode."
+    }
+  ]
+}
